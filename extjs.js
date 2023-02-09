@@ -1,4 +1,3 @@
-<script>
 document.getElementById("birthday").addEventListener("input", function(e) {
   let input = e.target.value;
   let newInput = "";
@@ -27,4 +26,3 @@ document.getElementById("birthday").addEventListener("input", function(e) {
   // display result in text element
   document.getElementById("result").textContent = z;
 });
-</script>
